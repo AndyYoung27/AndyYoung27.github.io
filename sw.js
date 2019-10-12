@@ -24,6 +24,8 @@ var precacheUrls = [];
 
   precacheUrls.push('/');
 
+  precacheUrls.push('/2019/10/12/socket实验/');
+
   precacheUrls.push('/2019/10/08/vue组件通信实验/');
 
   precacheUrls.push('/2019/09/26/blog图片处理方法/');

@@ -6,26 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>blog图片处理方法 | 必胜客( •̀ ω •́ )</title>
+  <title>socket实验 | 必胜客( •̀ ω •́ )</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="&amp;#x60F3;&amp;#x8981;&amp;#x5728;blog&amp;#x4E2D;&amp;#x63D2;&amp;#x5165;&amp;#x56FE;&amp;#x7247;&amp;#xFF1F;&amp;#x53C8;&amp;#x4E0D;&amp;#x60F3;&amp;#x8FC7;&amp;#x591A;&amp;#x5360;&amp;#x7528;&amp;#x7535;&amp;#x8111;&amp;#x7A7A;&amp;#x95F4;&amp;#xFF1F;">
-<meta name="keywords" content="hexo,博客">
+  <meta name="description" content="&amp;#x6700;&amp;#x8FD1;&amp;#x4E3A;&amp;#x4E86;&amp;#x4E00;&amp;#x4E2A;&amp;#x9879;&amp;#x76EE;&amp;#x5728;&amp;#x91CD;&amp;#x65B0;&amp;#x5B66;&amp;#x722C;&amp;#x866B;&amp;#x3002;&amp;#x6253;&amp;#x597D;&amp;#x57FA;&amp;#x7840;&amp;#xFF0C;&amp;#x4ECE;socket&amp;#x5F00;&amp;#x59CB;&amp;#x3002;&amp;#">
+<meta name="keywords" content="爬虫,计算机网络,socket">
 <meta property="og:type" content="article">
-<meta property="og:title" content="blog图片处理方法">
-<meta property="og:url" content="http://yoursite.com/2019/09/26/blog图片处理方法/index.html">
+<meta property="og:title" content="socket实验">
+<meta property="og:url" content="http://yoursite.com/2019/10/12/socket实验/index.html">
 <meta property="og:site_name" content="必胜客( •̀ ω •́ )">
-<meta property="og:description" content="&amp;#x60F3;&amp;#x8981;&amp;#x5728;blog&amp;#x4E2D;&amp;#x63D2;&amp;#x5165;&amp;#x56FE;&amp;#x7247;&amp;#xFF1F;&amp;#x53C8;&amp;#x4E0D;&amp;#x60F3;&amp;#x8FC7;&amp;#x591A;&amp;#x5360;&amp;#x7528;&amp;#x7535;&amp;#x8111;&amp;#x7A7A;&amp;#x95F4;&amp;#xFF1F;">
+<meta property="og:description" content="&amp;#x6700;&amp;#x8FD1;&amp;#x4E3A;&amp;#x4E86;&amp;#x4E00;&amp;#x4E2A;&amp;#x9879;&amp;#x76EE;&amp;#x5728;&amp;#x91CD;&amp;#x65B0;&amp;#x5B66;&amp;#x722C;&amp;#x866B;&amp;#x3002;&amp;#x6253;&amp;#x597D;&amp;#x57FA;&amp;#x7840;&amp;#xFF0C;&amp;#x4ECE;socket&amp;#x5F00;&amp;#x59CB;&amp;#x3002;&amp;#">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="https://user-images.githubusercontent.com/33116315/65672141-20f46e80-e07b-11e9-9caf-04279cb83ead.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20181226203635901.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NuZHMxMjMzMjE=,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20181226203938919.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NuZHMxMjMzMjE=,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20181226204143823.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NuZHMxMjMzMjE=,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20181226204301239.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NuZHMxMjMzMjE=,size_16,color_FFFFFF,t_70">
-<meta property="og:updated_time" content="2019-09-26T08:54:06.377Z">
+<meta property="og:updated_time" content="2019-10-12T13:14:45.868Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="blog图片处理方法">
-<meta name="twitter:description" content="&amp;#x60F3;&amp;#x8981;&amp;#x5728;blog&amp;#x4E2D;&amp;#x63D2;&amp;#x5165;&amp;#x56FE;&amp;#x7247;&amp;#xFF1F;&amp;#x53C8;&amp;#x4E0D;&amp;#x60F3;&amp;#x8FC7;&amp;#x591A;&amp;#x5360;&amp;#x7528;&amp;#x7535;&amp;#x8111;&amp;#x7A7A;&amp;#x95F4;&amp;#xFF1F;">
-<meta name="twitter:image" content="https://user-images.githubusercontent.com/33116315/65672141-20f46e80-e07b-11e9-9caf-04279cb83ead.png">
+<meta name="twitter:title" content="socket实验">
+<meta name="twitter:description" content="&amp;#x6700;&amp;#x8FD1;&amp;#x4E3A;&amp;#x4E86;&amp;#x4E00;&amp;#x4E2A;&amp;#x9879;&amp;#x76EE;&amp;#x5728;&amp;#x91CD;&amp;#x65B0;&amp;#x5B66;&amp;#x722C;&amp;#x866B;&amp;#x3002;&amp;#x6253;&amp;#x597D;&amp;#x57FA;&amp;#x7840;&amp;#xFF0C;&amp;#x4ECE;socket&amp;#x5F00;&amp;#x59CB;&amp;#x3002;&amp;#">
   
     <link rel="alternative" href="/atom.xml" title="必胜客( •̀ ω •́ )" type="application/atom+xml">
   
@@ -153,14 +147,14 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-blog图片处理方法" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-socket实验" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      blog图片处理方法
+      socket实验
     </h1>
   
 
@@ -173,43 +167,110 @@
 
 
 
-<a href="/2019/09/26/blog图片处理方法/" class="archive-article-date">
-  	<time datetime="2019-09-26T08:34:04.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-26</time>
+<a href="/2019/10/12/socket实验/" class="archive-article-date">
+  	<time datetime="2019-10-12T11:29:55.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-12</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>&#x60F3;&#x8981;&#x5728;blog&#x4E2D;&#x63D2;&#x5165;&#x56FE;&#x7247;&#xFF1F;&#x53C8;&#x4E0D;&#x60F3;&#x8FC7;&#x591A;&#x5360;&#x7528;&#x7535;&#x8111;&#x7A7A;&#x95F4;&#xFF1F;</p>
+        <p>&#x6700;&#x8FD1;&#x4E3A;&#x4E86;&#x4E00;&#x4E2A;&#x9879;&#x76EE;&#x5728;&#x91CD;&#x65B0;&#x5B66;&#x722C;&#x866B;&#x3002;&#x6253;&#x597D;&#x57FA;&#x7840;&#xFF0C;&#x4ECE;socket&#x5F00;&#x59CB;&#x3002;&#x1F604;</p>
 <a id="more"></a>
 
-<p>&#x89E3;&#x51B3;&#x65B9;&#x6848;1&#xFF1A;&#x5229;&#x7528;github issue&#x4F5C;&#x4E3A;&#x56FE;&#x5E8A;</p>
-<p>&#x6D4B;&#x8BD5;&#x7528;&#x4F8B;&#x5982;&#x4E0B;(&#x9644;&#x4E0A;&#x6211;&#x6700;&#x7231;&#x7684;&#x89D2;&#x8272;&#x4E4B;&#x4E00;)</p>
-<p><img src="https://user-images.githubusercontent.com/33116315/65672141-20f46e80-e07b-11e9-9caf-04279cb83ead.png" alt="&#x5C4F;&#x5E55;&#x622A;&#x56FE;(101)"></p>
-<p>&#x54C8;&#x54C8;&#x54C8;&#xFF0C;&#x5176;&#x5B9E;&#x5F88;&#x7B80;&#x5355;</p>
-<ol>
-<li><p>&#x5148;&#x5728;github&#x4E0A;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;repository</p>
-<p><img src="https://img-blog.csdnimg.cn/20181226203635901.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NuZHMxMjMzMjE=,size_16,color_FFFFFF,t_70" alt></p>
-</li>
-<li><p>new issue</p>
-<p><img src="https://img-blog.csdnimg.cn/20181226203938919.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NuZHMxMjMzMjE=,size_16,color_FFFFFF,t_70" alt></p>
-</li>
-<li><p>&#x5C06;&#x56FE;&#x7247;&#x62D6;&#x5165;&#x6216;&#x70B9;&#x51FB;Attach file by&#x2026;.</p>
-<p><img src="https://img-blog.csdnimg.cn/20181226204143823.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NuZHMxMjMzMjE=,size_16,color_FFFFFF,t_70" alt></p>
-</li>
-<li><p>&#x4E0A;&#x4F20;&#x540E;&#xFF0C;&#x5728;write&#x4E2D;&#x53EF;&#x4EE5;&#x67E5;&#x770B;&#x81EA;&#x52A8;&#x751F;&#x6210;&#x7684;&#x94FE;&#x63A5;</p>
-<p><img src="https://img-blog.csdnimg.cn/20181226204301239.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NuZHMxMjMzMjE=,size_16,color_FFFFFF,t_70" alt></p>
-</li>
-<li><p>&#x5C06;&#x8FD9;&#x4E2A;&#x94FE;&#x63A5;&#x76F4;&#x63A5;&#x901A;&#x8FC7;markdown&#x7684;&#x65B9;&#x5F0F;&#x4F7F;&#x7528;&#x5373;&#x53EF;</p>
-<ul>
-<li>!  +  []  + (&#x4F60;&#x7684;&#x94FE;&#x63A5;)    </li>
+<p>&#x8BDD;&#x4E0D;&#x591A;&#x8BF4;&#xFF0C;&#x76F4;&#x63A5;&#x8FDB;&#x5165;&#x6B63;&#x9898;&#x3002;</p>
+<p>&#x5206;&#x4E24;&#x4E2A;&#x6587;&#x4EF6;&#xFF0C;socket_server.py &#x4E0E; socket_client.py</p>
+<p>&#x9996;&#x5148;&#x5148;&#x5199;server</p>
+<h3 id="1-server"><a href="#1-server" class="headerlink" title="1. server"></a>1. server</h3><ul>
+<li>&#x9996;&#x5148;&#x65B0;&#x5EFA;&#x5957;&#x63A5;&#x5B57;<ul>
+<li>socket&#x53EF;&#x4F20;&#x9012;&#x53C2;&#x6570;&#xFF0C;&#x9ED8;&#x8BA4;tcp</li>
 </ul>
 </li>
-</ol>
-<p>&#x8FD9;&#x65F6;&#x4F60;&#x4E0A;&#x4F20;&#x7684;&#x56FE;&#x7247;&#x5C31;&#x4F1A;&#x88AB;&#x6C38;&#x4E45;&#x4FDD;&#x5B58;&#x5728;github&#x7684;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#xFF0C;&#x800C;&#x4E14;&#x4E5F;&#x4E0D;&#x9700;&#x8981;&#x4F60;&#x63D0;&#x4EA4;issue</p>
-<p>&#x4F46;&#x5176;&#x5B9E;&#xFF0C;&#x611F;&#x89C9;&#x8FD9;&#x79CD;&#x65B9;&#x6CD5;&#x5E76;&#x975E;&#x662F;&#x6700;&#x4F73;&#x65B9;&#x6848;&#xFF0C;&#x5012;&#x662F;&#x53C8;&#x6709;&#x79CD;&#x8585;&#x8D44;&#x672C;&#x4E3B;&#x4E49;&#x7F8A;&#x6BDB;&#x7684;&#x611F;&#x89C9;(&#x5FAE;&#x8F6F;&#x5927;&#x6CD5;&#x597D;&#x1F602;)</p>
-<p>&#x56E0;&#x6B64;&#x5F53;&#x6709;&#x65B9;&#x6848;2&#x7684;&#x65F6;&#x5019;&#x8FD8;&#x4F1A;&#x6765;&#x66F4;&#x65B0;&#x7684;&#xFF0C;&#x4F46;&#x662F;&#x4E03;&#x725B;&#x4E91;&#x817E;&#x8BAF;&#x4E91;&#x4EC0;&#x4E48;&#x7684;&#x5C31;&#x7B97;&#x4E86;&#x5427;(&#x7559;&#x4E0B;&#x4E86;&#x8D2B;&#x7A77;&#x7684;&#x6CEA;&#x6C34;&#x1F602;)</p>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> socket</span><br><span class="line">server = socket.socket()</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>&#x7136;&#x540E;server&#x9700;&#x8981;bind<ul>
+<li>&#x9700;&#x8981;&#x4F20;&#x4E00;&#x4E2A;tuple<ul>
+<li>&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x662F;ip&#x5730;&#x5740;&#xFF0C;&#x5E94;&#x8BE5;&#x7ED1;&#x5B9A;<strong>0.0.0.0</strong>&#xFF0C;&#x8FD9;&#x4E2A;ip&#x8868;&#x793A;&#x672C;&#x673A;&#x6240;&#x6709;ip&#xFF0C;&#x5305;&#x62EC;127.0.0.1  &#x4EE5;&#x53CA;&#x672C;&#x673A;&#x5C40;&#x57DF;&#x7F51;&#x5185;ip</li>
+<li>&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;&#x662F;&#x7AEF;&#x53E3;</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">server.bind((<span class="string">&apos;0.0.0.0&apos;</span>,<span class="number">8000</span>))</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>bind&#x4E4B;&#x540E;server&#x9700;&#x8981;listen</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">server.listen()</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>&#x963B;&#x585E;&#x7B49;&#x5F85;&#x8FDE;&#x63A5;<ul>
+<li>accpet&#x51FD;&#x6570;&#x6709;&#x8FD4;&#x56DE;&#x503C;<ul>
+<li>&#x6BCF;&#x4E00;&#x4E2A;&#x5BA2;&#x6237;&#x7AEF;&#x8FDE;&#x63A5;&#x5230;server&#x90FD;&#x4F1A;&#x6709;&#x4E00;&#x4E2A;&#x5355;&#x72EC;&#x7684;&#x901A;&#x9053;&#xFF0C;&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x662F;&#x901A;&#x9053;&#x53C2;&#x6570;</li>
+<li>&#x7B2C;&#x4E8C;&#x4E2A;&#x662F;&#x5BA2;&#x6237;&#x7AEF;&#x5730;&#x5740;</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sock,addr = server.accept()</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>&#x5229;&#x7528;sock&#x901A;&#x9053;&#x83B7;&#x53D6;&#x4FE1;&#x606F;<ul>
+<li>buffer size&#x9700;&#x8981;&#x4F20;&#x5165;&#xFF0C;&#x4F46;&#x6570;&#x636E;&#x53EF;&#x80FD;&#x5927;&#x4E8E;buffer size</li>
+<li>&#x56E0;&#x6B64;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5FAA;&#x73AF;&#x8C03;&#x7528;</li>
+<li>&#x4F46;recv&#x51FD;&#x6570;&#x8FD4;&#x56DE;&#x503C;&#x4E3A;bytes -&gt; decode&#x89E3;&#x7801;</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">data = <span class="string">&quot;&quot;</span></span><br><span class="line"><span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">    tmp_data = sock.recv(<span class="number">1024</span>)</span><br><span class="line">    <span class="keyword">if</span> tmp_data:</span><br><span class="line">        data += tmp_data&#x3002;decode(<span class="string">&apos;utf-8&apos;</span>)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line">print(data)</span><br><span class="line">sock.close()</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-client"><a href="#2-client" class="headerlink" title="2. client"></a>2. client</h3><ul>
+<li>&#x65B0;&#x5EFA;&#x5957;&#x63A5;&#x5B57;</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> socket</span><br><span class="line">client = socket.socket()</span><br><span class="line">client.connect((<span class="string">&apos;127.0.0.1&apos;</span>,<span class="number">8000</span>)) <span class="comment">#&#x6216;&#x8005;&#x7528;ipconfig&#x7684;ip</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>&#x6570;&#x636E;&#x53D1;&#x9001;<ul>
+<li>send&#x53D1;&#x9001;&#x7684;&#x662F;bytes&#x7C7B;&#x578B;</li>
+<li>&#x4E24;&#x79CD;&#x65B9;&#x5F0F;</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">client.send(<span class="string">b&quot;hello&quot;</span>) <span class="comment">#&#x8F6C;&#x6362;&#x6210;bytes</span></span><br><span class="line">client.send.(<span class="string">&quot;hello&quot;</span>.encode(<span class="string">&apos;utf-8&apos;</span>)) <span class="comment">#&#x7528;utf-8 encode</span></span><br><span class="line">client.close()</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-&#x52A0;&#x5DE5;"><a href="#3-&#x52A0;&#x5DE5;" class="headerlink" title="3. &#x52A0;&#x5DE5;"></a>3. &#x52A0;&#x5DE5;</h3><blockquote>
+<p>&#x8BA9;&#x5BA2;&#x6237;&#x7AEF;&#x8F93;&#x5165;&#x4EC0;&#x4E48;&#xFF0C;&#x670D;&#x52A1;&#x5668;&#x663E;&#x793A;&#x4EC0;&#x4E48;</p>
+</blockquote>
+<h4 id="1-client"><a href="#1-client" class="headerlink" title="1. client"></a>1. client</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">    input_data = input()</span><br><span class="line">    client.send(input_data.encode(<span class="string">&apos;utf8&apos;</span>))</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>&#x4F46;&#x73B0;&#x5728;&#x5E76;&#x4E0D;&#x80FD;&#x5B9E;&#x73B0;&#xFF0C;&#x539F;&#x56E0;&#x5728;&#x4E8E;&#x670D;&#x52A1;&#x5668;&#x7AEF;recv&#x65B9;&#x6CD5;&#x662F;&#x963B;&#x585E;&#x7684;&#xFF0C;&#x4F1A;&#x5728;&#x7F13;&#x5B58;&#x4E00;&#x76F4;&#x53D6;&#x6570;&#x636E;</li>
+<li>&#x89E3;&#x51B3;&#x65B9;&#x6848;1&#xFF1A;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x534F;&#x8BAE;&#xFF0C;&#x5F53;&#x8F93;&#x51FA;&#x4EE5;#&#x7ED3;&#x5C3E;&#xFF0C;&#x5219;&#x63D0;&#x4EA4;&#x5B8C;&#x6210;</li>
+</ul>
+<h4 id="2-server"><a href="#2-server" class="headerlink" title="2. server"></a>2. server</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">    tmp_data = sock.recv(<span class="number">1024</span>)</span><br><span class="line">    <span class="keyword">if</span> tmp_data:</span><br><span class="line">        data += tmp_data.decode(<span class="string">&apos;utf8&apos;</span>)</span><br><span class="line">        <span class="keyword">if</span> tmp_data.endswith(<span class="string">&apos;#&apos;</span>):</span><br><span class="line">            <span class="keyword">break</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="3-&#x6539;&#x8FDB;"><a href="#3-&#x6539;&#x8FDB;" class="headerlink" title="3. &#x6539;&#x8FDB;"></a>3. &#x6539;&#x8FDB;</h4><ul>
+<li>socket&#x53CC;&#x5411;&#x901A;&#x4FE1;&#xFF0C;&#x65E2;&#x53EF;&#x4EE5;send&#x53C8;&#x53EF;&#x4EE5;recv</li>
+</ul>
+<h5 id="1-client-1"><a href="#1-client-1" class="headerlink" title="1. client"></a>1. client</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">    input_data = input()</span><br><span class="line">    client.send(input_data.encode(<span class="string">&apos;utf8&apos;</span>))</span><br><span class="line">    server_data = client.recv(<span class="number">1024</span>)</span><br><span class="line">    print(server_data.decode(<span class="string">&apos;utf8&apos;</span>))</span><br></pre></td></tr></table></figure>
+
+<h5 id="2-server-1"><a href="#2-server-1" class="headerlink" title="2. server"></a>2. server</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">    sock.send(<span class="string">&quot;welcome&quot;</span>.encode(<span class="string">&quot;utf8&quot;</span>))</span><br><span class="line">    tmp_data = sock.recv(<span class="number">1024</span>)</span><br><span class="line">    input_data = input()</span><br><span class="line">    sock.send(input_data.encode(<span class="string">&apos;utf8&apos;</span>))</span><br></pre></td></tr></table></figure>
+
+<h4 id="4-&#x518D;&#x6539;&#x8FDB;"><a href="#4-&#x518D;&#x6539;&#x8FDB;" class="headerlink" title="4. &#x518D;&#x6539;&#x8FDB;"></a>4. &#x518D;&#x6539;&#x8FDB;</h4><blockquote>
+<p>&#x76EE;&#x524D;&#x670D;&#x52A1;&#x5668;&#x53EA;&#x80FD;&#x5904;&#x7406;&#x4E00;&#x4E2A;&#x5BA2;&#x6237;&#x7AEF;</p>
+</blockquote>
+<ul>
+<li><strong>&#x591A;&#x7EBF;&#x7A0B;</strong><ul>
+<li>&#x6BCF;&#x6765;&#x4E00;&#x4E2A;&#x7528;&#x6237;&#xFF0C;&#x90FD;&#x4E3A;&#x5176;&#x58F0;&#x660E;&#x4E00;&#x4E2A;&#x7EBF;&#x7A0B;&#x53BB;&#x5904;&#x7406;</li>
+</ul>
+</li>
+</ul>
+<h5 id="1-server-1"><a href="#1-server-1" class="headerlink" title="1. server"></a>1. server</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> threading</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">handle_sock</span><span class="params">(sock,addr)</span>:</span></span><br><span class="line">    tmp_data = sock.recv(<span class="number">1024</span>)</span><br><span class="line">    input_data = input()</span><br><span class="line">    sock.send(input_data.encode(<span class="string">&apos;utf8&apos;</span>))</span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">    sock, addr = server.accept()</span><br><span class="line">    client_thread = threading.Thread(target=handle_sock,args=(sock,addr))<span class="comment">#&#x4F20;&#x7684;&#x662F;&#x51FD;&#x6570;&#x540D;&#x79F0;</span></span><br><span class="line">    client_thread.start()</span><br></pre></td></tr></table></figure>
+
 
       
 
@@ -244,11 +305,15 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">hexo</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">爬虫</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">博客</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">计算机网络</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">socket</a>
         		</li>
       		
 		</ul>
@@ -304,7 +369,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/09/26/blog图片处理方法/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/10/12/socket实验/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -318,18 +383,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2019/10/08/vue组件通信实验/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          vue组件通信实验
-        
-      </div>
-    </a>
   
-  
-    <a href="/2019/09/23/开业大吉/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">开业大吉</div>
+    <a href="/2019/10/08/vue组件通信实验/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">vue组件通信实验</div>
       <i class="icon-circle-right"></i>
     </a>
   
