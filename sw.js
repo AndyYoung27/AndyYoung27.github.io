@@ -24,6 +24,8 @@ var precacheUrls = [];
 
   precacheUrls.push('/');
 
+  precacheUrls.push('/2019/10/16/Python输出格式控制/');
+
   precacheUrls.push('/2019/10/12/socket实验/');
 
   precacheUrls.push('/2019/10/08/vue组件通信实验/');
