@@ -24,6 +24,8 @@ var precacheUrls = [];
 
   precacheUrls.push('/');
 
+  precacheUrls.push('/2019/11/18/Python函数/');
+
   precacheUrls.push('/2019/10/16/Python输出格式控制/');
 
   precacheUrls.push('/2019/10/12/socket实验/');
@@ -31,8 +33,6 @@ var precacheUrls = [];
   precacheUrls.push('/2019/10/08/vue组件通信实验/');
 
   precacheUrls.push('/2019/09/26/blog图片处理方法/');
-
-  precacheUrls.push('/2019/09/23/开业大吉/');
 
 toolbox.precache(precacheUrls);
 toolbox.options = {"networkTimeoutSeconds":5};
